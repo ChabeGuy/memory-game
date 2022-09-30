@@ -10,6 +10,8 @@ input.onPinPressed(TouchPin.P0, function () {
             if (CurrentPositions.length > 0) {
                 WaitingForGuess = true
             } else {
+                music.playTone(262, music.beat(BeatFraction.Half))
+                music.playTone(523, music.beat(BeatFraction.Half))
                 game.addScore(1)
                 New_Pattern()
             }
@@ -59,6 +61,8 @@ input.onPinPressed(TouchPin.P2, function () {
             if (CurrentPositions.length > 0) {
                 WaitingForGuess = true
             } else {
+                music.playTone(262, music.beat(BeatFraction.Half))
+                music.playTone(523, music.beat(BeatFraction.Half))
                 game.addScore(1)
                 New_Pattern()
             }
@@ -80,6 +84,8 @@ input.onPinPressed(TouchPin.P1, function () {
             if (CurrentPositions.length > 0) {
                 WaitingForGuess = true
             } else {
+                music.playTone(262, music.beat(BeatFraction.Half))
+                music.playTone(523, music.beat(BeatFraction.Half))
                 game.addScore(1)
                 New_Pattern()
             }
